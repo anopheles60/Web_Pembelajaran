@@ -1,0 +1,100 @@
+body{
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    background-image: url(img.png);
+    color:#333;
+
+}
+
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.header{
+    padding: 20px;
+    padding-bottom: 2px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-top: auto;
+    margin-right: 10px;
+    padding-bottom: 5px;
+
+}
+
+.header a{
+    text-decoration: none;
+    color: rgb(15, 156, 238);
+    padding: 3px;
+}
+
+.header a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.hero {
+    height: 300px;
+    background-image: url(PlagueDoc_cvr-980x646.jpg);
+    background-size: cover;
+    background-position: 30 -10;
+    border-top: 5px solid lightskyblue;
+    border-bottom: 5px solid salmon;
+
+}
+
+.content {
+    padding: 30px;
+}
+
+.content h2 {
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.content .penulis {
+    font-style: 11px;
+    margin-top: -25px;
+}
+
+.content .penulis a {
+    color: rgb(20, 13, 226);
+    text-decoration: none;
+}
+
+.content p{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.footer {
+    background-color: rgb(61, 60, 60);
+    padding: -10px;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 15px;
+}
+/* 
+@media (max-width: 1366px){
+
+}
+@media (max-width: 768px){
+ body{
+    word-wrap: break-word;
+ }
+}
+@media (max-width: 450px){
+
+} */
